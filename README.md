@@ -1,5 +1,5 @@
 # Cryptocurrency blockchain network
-A multithreaded application that illustrates a cryptocurrency blockchain network.
+A multithreaded (POSIX threads) application that illustrates a cryptocurrency blockchain network.
 Based on client/server architecture, in which the mining threads(clients) are mining blocks(calculate hashes)
 and send those blocks to a server that verifies and adds them to its blockchain.
 The clients use synchronization among themselves and between them and the server to get the correct results.
