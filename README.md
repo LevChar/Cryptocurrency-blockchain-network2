@@ -10,7 +10,7 @@ in a basic way, the blockchain mining process. It consists of 4 mining threads, 
 and one "dummy" miner thread. Each one of the mining threads is responsible for mining new blocks
 to the Blockchain, the server is responsible for validation	of miner's work, and the "dummy" thread
 is responsible	for creating wrong blocks, so we can validate that the server is doing its job, and
-not letting every block in. In the process of creating this piece of software, there is a lot of practice
+not letting every block in. In the process of creating this piece of software, there was a lot of practice
 in writing multithreaded code, thread synchronization, etc.
 
 ## **Compilation & Execution:**
